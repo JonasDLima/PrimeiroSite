@@ -1,0 +1,30 @@
+* {box-sizing: border-box;}
+
+body {
+    font-family: sans-serif, 'Source Sans Pro';
+}
+
+header{
+    width: 1024px;
+}
+
+.topo {
+    background-color: lightcyan;
+}
+
+.titulo {
+    margin: 0 4 0px 0 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header .topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
